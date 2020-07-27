@@ -205,7 +205,8 @@ h1.try
 
 .curve img
 {
-    max-width: 125%;
+    width: 140%;
+    max-width: 140%;
 }
 
 .main-box .curve-bx
@@ -297,7 +298,13 @@ h1.try
     min-width: 140px;
 }
 
-
+@media screen and (max-width: 1350px)
+{
+    .curve img
+    {
+       width: 110%; 
+    }   
+}
 
 
 @media screen and (max-width: 1200px)
@@ -315,7 +322,8 @@ h1.try
 
     .curve img
     {
-        max-width: 150%;
+       width: 150%; 
+       max-width: 150%;
     }
 }
 
