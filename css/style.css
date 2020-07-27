@@ -1,0 +1,497 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+.navbar-start
+{
+    margin-left: auto !important ;
+    margin-right: 0;
+}
+
+.topbar
+{
+    height: auto !important;
+    margin-bottom: -3.5px;
+}
+
+.columns
+{
+    margin: 0 !important;
+}
+
+.button
+{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.mb-4
+{
+    margin-bottom: 1rem !important;
+}
+
+.mt-4
+{
+    margin-top: 1rem !important;
+}
+
+
+
+/* Navbar */
+
+.navbar
+{
+    font-size: 1.64em;
+    font-weight: 600;
+    padding: 0.75rem 12rem 0.75rem 7rem;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.09);
+    background-color: #ffffff;
+}
+
+.navbar-item
+{
+    color: #182828;
+    font-weight: 400 !important;
+}
+
+
+.resume
+{
+    color: #ffffff !important;
+    border: none;
+    background-color: #eeaa22 !important;
+    margin-left: 7.5%; 
+    margin-top: 0.5rem;
+
+}
+
+.navbar-item .product_hunt
+{
+    max-height: 2.5em;
+}
+
+@media screen and (max-width: 992px)
+{
+    .navbar-burger
+    {
+        margin-left: auto !important;
+        margin-right: 0 !important;
+    }
+
+    .navbar
+    {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 540px)
+{
+
+    .navbar
+    {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+}
+
+
+/* Navbar ends*/
+
+/* main-box start */
+
+.main-box
+{
+    background-color: #182828;
+}
+
+.text-bx
+{
+    padding-bottom: 7.5% !important;
+}
+
+.key-point
+{
+    padding: 15% 5% 5% 5% !important;
+}
+
+.point
+{
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 1.44;
+    color: #ffffff;
+}
+
+.person
+{
+    margin-top: 26px;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: 1.65;
+    color: #ffffff;
+    opacity: 0.6;
+}
+
+.trial-part
+{
+    padding-left: 5%;
+}
+
+h1.try
+{
+    font-size: 2.6em;
+    font-weight: bold;
+    line-height: 1.38;
+    color: #ffffff;
+}
+
+.try-btn
+{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.6em;  
+    background-color: #eeaa22 !important;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.16);  
+    padding: 1.4rem 33px;
+    margin-top: 22px;
+}
+
+.second-btn
+{
+    margin-left: 23px;
+}
+
+.cupoun
+{
+    padding-left: 5%;
+    padding-top: 7.5%;
+}
+
+.cupoun-text h1
+{
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 1.55;
+    color: #ffffff;
+}
+
+.feat
+{
+    font-weight: 600;
+    color: #eeaa22;
+}
+
+.cupoun-card
+{
+    margin-top: 4rem;
+}
+
+.black-bx
+{
+    font-size: 2.2em;
+    font-weight: normal;
+    line-height: 1.55;
+    border: dashed 1px #ffffff;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1.5rem 2rem;
+}
+
+.curve
+{
+    overflow: hidden;
+}
+
+.curve img
+{
+    max-width: 125%;
+}
+
+.main-box .curve-bx
+{
+   padding: 0;
+   position: relative;
+}
+
+.upper-part
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5% 5%;
+}
+
+.upper-text
+{
+    font-size: 1.6em;
+    font-weight: 600;
+    line-height: 1.38;
+    color: #ffffff;
+}
+
+.round-ones
+{
+    margin-top: 15px !important;
+}
+
+.circle
+{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.11);
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.svg-logo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.r1c1
+{
+    width: 216px;
+    height: 216px;
+}
+
+.r1c2
+{
+    width: 195px;
+    height: 195px;
+    transform: translateY(40%);
+}
+
+.r2c1
+{
+    width: 180px;
+    height: 180px;
+    transform: translateX(10%);
+}
+
+.r2c2
+{
+    height: 215px;
+    width: 215px;
+    transform: translateY(40%);
+}
+
+.c-2
+{
+    margin-top: 60px;
+}
+
+.spcl
+{
+    font-size: 1.3em;
+    font-weight: 600;
+    line-height: 1.31;
+    color: #182828;
+    margin-top: 0.5rem;
+    min-width: 140px;
+}
+
+
+
+
+@media screen and (max-width: 1200px)
+{
+    .point
+    {
+        font-size: 2.7em;
+    }
+
+    .try-btn
+    {
+        padding: 1.5rem 1.3rem;
+        font-size: 1.4em;
+    }
+
+    .curve img
+    {
+        max-width: 150%;
+    }
+}
+
+@media screen and (max-width: 992px)
+{
+    .point
+    {
+        font-size: 2.2em;
+    }
+
+    .try-btn
+    {
+        padding: 1rem 2rem;
+        font-size: 1.3em;
+    }
+
+    .second-btn 
+    {
+        margin-left: 0;
+    }
+
+    .cupoun-text h1
+    {
+        font-size: 1.6em;
+    }
+
+    .black-bx
+    {
+        font-size: 1.8em;
+        padding: 1rem;
+    }
+
+    .upper-text
+    {
+        font-size: 1.2em;
+    }
+
+    .curve img
+    {
+        max-width: 175%;
+    }
+
+   
+}
+
+@media screen and (min-width: 768px)
+{
+    .r1c2
+    {
+        transform: translate(8% , 40%);
+    }
+
+    .r2c1
+    {
+        transform: translate(20%, 11%);
+    }
+
+    .r2c2
+    {
+        transform: translate(10%, 40%);
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+
+    .text-bx
+    {
+        text-align: center;
+    }
+
+    .point
+    {
+        font-size: 3.2em;
+    }
+
+    .try-btn
+    {
+        padding: 1.5rem 15%;
+        font-size: 1.3em;
+    }
+
+    .key-point {
+        padding: 5% !important;
+    }
+
+    .cupoun-text h1 {
+        font-size: 2.2em;
+    }
+
+    .cupoun
+    {
+        padding: 10% 5%;
+    }
+
+    .trial-part
+    {
+        padding:  0 5%;
+    }
+
+    .circle
+    {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .upper-text
+    {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .curve img
+    {
+        max-width: 160%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .point
+    {
+        font-size: 2.6em;
+    }
+
+    .key-point {
+        padding: 7.5% 0% 5% 5% !important;
+    }
+
+    .trial-part
+    {
+        padding: 5%;
+    }
+
+    .cupoun-text h1 {
+        font-size: 1.8em;
+    }
+
+    .try-btn
+    {
+        padding: 1.6rem 18%;
+        margin-top: 22px;
+        font-size: 1.4em;
+    }
+
+    .spcl
+    {
+        font-size: 0.8em;
+    }
+
+    .circle
+    {
+        height: 150px !important;
+        width: 150px !important;
+    }
+
+    .curve
+    {
+        overflow: hidden;
+    }
+
+    .upper-text
+    {
+        font-size: 1.4em;
+    }
+
+    .upper-part
+    {
+        padding: 5% 0%;
+    }
+
+    h1.try
+    {
+        font-size: 2.4em;
+    }
+}
+
+
+/* main-box end */
